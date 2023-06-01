@@ -1,0 +1,352 @@
+/*--------------------------------------------------------Header Section----------------------------------------------------------------*/
+.header{
+    background-color: #f2f1f0;
+}
+.navigation_logo{
+    margin: auto;
+    width:90%;
+    display: flex;
+}
+.header_logo_one{
+    width: 25%;
+}
+.header_logo_two{
+    width: 10%;
+}
+.header_contact{
+    width: 15%;
+    padding-top: 10px;
+}
+.contact_info{
+    border: 1px solid grey;
+    border-radius: 20%;
+}
+.contact_info p{
+    line-height: 8px;
+}
+.header_for_sale{
+    width: 15%;
+    padding-left: 20px;
+}
+.header_for_sale p{
+    line-height: 8px;
+}
+.header_for_service{
+    width: 20%;
+}
+.header_for_service p{
+    line-height: 8px;
+}
+.header_download{
+    padding-top: 15px;
+
+}
+/*--------------------------------------------------------- ***** ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------Navigation Bar --------------------------------------------------------------*/
+.navigation_bar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #292929;
+}
+.navigation_bar div{
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+.navigation_bar div:hover{
+    background-color: #f2f1f0;
+    color: black;
+}
+/*------------------------------------------------------------ ***** ------------------------------------------------------------------*/
+
+/*------------------------------------------------------------ Section One-------------------------------------------------------------*/
+.section-one{
+    background-color: #7aa9db;
+}
+.section-one-img
+{
+    width: 90%;
+    margin: auto;
+}
+.img-one{
+    width: 100%;
+    animation: example infinite ease-out 2s;
+}
+@keyframes example {
+    0%   {scale: 100%;}
+    50%  {scale: 105%;}
+    100%  {scale: 100%;}
+}
+.Card_Section{
+    background-color: #f2f1f0;
+}
+.Card{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 10px 0 0 0;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+    background-color: white;
+}
+.heading{
+    background-color: #292929;
+    padding: 0.1%;
+    font-weight: bold;
+    text-align: center;
+}
+.heading p{
+    color: white;
+}
+.heading p:hover{
+    background-color: #292929;
+    color: white;
+}
+.product_div_one{
+    display: flex;
+    justify-content: space-around;
+}   
+.product_one p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+} 
+.card_img_one:hover{
+    animation: rotate 2s;
+}
+.card_img_two:hover{
+    animation: rotate 2s;
+}
+.card_img_three:hover{
+    animation: rotate 2s;
+}
+.card_img_four:hover{
+    animation: rotate 2s;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+.product_div_one div{
+    margin: 5px;
+    background-color: #7aa9db;
+}
+.product_div_two div{
+    margin: 5px;
+    background-color: #7aa9db;
+}
+
+.product_div_two{
+    display: flex;
+    justify-content: space-around;
+}
+.product_two p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding:5px
+}
+.card_img_one{
+    width: 94%;
+    padding: 5px 0px 1px 5px;
+}
+.card_img_two{
+    width: 94%;
+    padding: 5px 0px 1px 5px;
+}
+.card_img_three{
+    width: 94%;
+    padding: 5px 0px 1px 5px;
+}
+.card_img_four{
+    width: 94%;
+    padding: 5px 0px 1px 5px;
+}
+.read_more{
+    background-color: #292929;
+    padding: 0.1%  0 0 0;
+}
+.read_more p{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+.service_para{
+    padding: 15px;
+}
+
+.row{
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+.row div {
+    width: 24%;
+    margin: 5px;
+
+}
+.footer{
+    background-color: black;
+}
+.carousel-inner img{
+    width: 200px;
+    height: 100%;
+    margin-left: -50px;
+}
+.col-md-12{
+    display: flex;
+}
+.col-md-12 div {
+    width: 50%;
+}
+/*------------------------------------------------------------ ***** -------------------------------------------------------------------*/
+
+/*---------------------------------------------------------Footer Section---------------------------------------------------------------*/
+.footerForm textarea {
+    width: 94%;
+    float: left;
+    margin: 5px;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px;
+    height: 60px;
+    background: none;
+    border: 1px #7aa9db solid;
+    outline: 0px;
+}
+
+.footerForm input[type="text"] {
+    width: 45%;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    padding: 12px 6px;
+    height: 10px;
+    background: none;
+    border: 1px #7aa9db solid;
+    outline: 0px;
+}
+.Daikin_img_one{
+    animation: example infinite ease-out 2s;
+}
+.Daikin_img_two{
+    animation: example infinite ease-out 2s;
+}
+.img-responsive{
+    animation: example infinite ease-out 2s;
+}
+@keyframes example {
+    0%   {scale: 100%;}
+    50%  {scale: 105%;}
+    100%  {scale: 100%;}
+}
+.mappopup a {
+    background: #7aa9db;
+    color: #fff;
+    padding: 4px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.mappopup a:hover{
+    background-color: #292929;
+    color: white;
+}
+.footerCont ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-left: -35px;
+}
+.footerCont ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.col-md-6 {
+    display: flex;
+    border: 1px solid #7aa9db;
+    padding: 10px 45px;
+}
+
+.footerForm input[type="submit"] {
+    float: left;
+    margin: 5px;
+    font-size: 12px;
+    color: #242424;
+    height: 25px;
+    background: #7aa9db;
+    border-radius: 3px;
+    outline: 0px;
+    border: 0px;
+}
+
+.footer .col-md-3 h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#slideImg li img {
+    height: 80px;
+    margin: 3px;
+}
+
+.rotate-prev {
+    position: absolute;
+}
+
+#slideImg {
+    margin: 0px auto;
+    background-color: #7aa9db;
+    padding: 3px 0px;
+    position: relative;
+}
+
+#slideImg ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+#slideImg ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.submit-form-btn input:hover{
+    background-color: #292929;
+    color: white;
+}
+.slide1 {
+    animation-timing-function: linear;
+    animation-direction:normal;
+    animation-iteration-count:infinite;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+/*------------------------------------------------------------ ***** ---------------------------------------------------------------*/
